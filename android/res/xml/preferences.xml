@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="@string/prefs_enabled"
+        android:defaultValue="false"
+        android:summary="@string/prefs_desc_enabled"
+        android:key="P4FPrefEnabled" />
+    <PreferenceCategory android:title="@string/prefs_cat_server">
+        <EditTextPreference
+            android:title="@string/prefs_url"
+            android:defaultValue="http://your_host/push4free/read"
+            android:summary="@string/prefs_desc_url"
+            android:key="P4FPrefURL" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_cat_notif">
+        <CheckBoxPreference
+            android:title="@string/prefs_tone"
+            android:defaultValue="true"
+            android:summary="@string/prefs_desc_tone"
+            android:key="P4FPrefTone"/>
+        <CheckBoxPreference
+            android:title="@string/prefs_vibrate"
+            android:defaultValue="true"
+            android:summary="@string/prefs_desc_vibrate"
+            android:key="P4FPrefVibrate"/>
+        <CheckBoxPreference
+            android:title="@string/prefs_blink"
+            android:defaultValue="true"
+            android:summary="@string/prefs_desc_blink"
+            android:key="P4FPrefBlink"/>
+    </PreferenceCategory>
+    <Preference
+        android:title="@string/prefs_info"
+        android:summary="@string/prefs_desc_info"
+        android:key="P4FPrefInfo" />
+
+</PreferenceScreen>

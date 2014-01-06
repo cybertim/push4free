@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Push4Free</string>
+
+    <string name="prefs_cat_server">Server Settings</string>
+    <string name="prefs_cat_notif">Notification Settings</string>
+
+    <string name="prefs_enabled">Service Enabled</string>
+    <string name="prefs_desc_enabled">enable receiving notifications in the background</string>
+
+    <string name="prefs_url">P4F Server URL</string>
+    <string name="prefs_desc_url">the P4F server hostname and path to use</string>
+
+    <string name="prefs_tone">Sound</string>
+    <string name="prefs_desc_tone">play sound when a message is received</string>
+
+    <string name="prefs_vibrate">Vibrate</string>
+    <string name="prefs_desc_vibrate">vibrate when a message is received</string>
+
+    <string name="prefs_blink">Blink Led</string>
+    <string name="prefs_desc_blink">blink led when a message is received</string>
+
+    <string name="prefs_info">Visit P4F@GitHub</string>
+    <string name="prefs_desc_info">read more about how to setup your P4F server</string>
+
+</resources>
