@@ -18,15 +18,15 @@ Push Service For Free is a very clean and simple push service as a server and cl
 ## Installation
 
 ### Client
-* Use the default [Android](http://www.android.com/) P4F client from [Google Play]() and add your own P4F Server Address into the client's settings.
+* Use the default [Android](http://www.android.com/) P4F client from [Google Play](https://play.google.com/store/apps/details?id=com.mizusoft.android.push4free) and add your own P4F Server Address into the client's settings.
 * Alter / compile the client yourself, install the [Android SDK](http://developer.android.com/sdk/index.html) and just compile the [Maven](http://maven.apache.org/) android module.
 
 ### Server
-* Use the Precompiled Spring Webapp and deploy it to a [Tomcat](http://tomcat.apache.org/) server.
+* Use the [Precompiled Spring Webapp](https://github.com/cybertim/push4free/raw/master/build/push4free.war) and deploy it to a [Tomcat](http://tomcat.apache.org/) server.
 * Or checkout the code and compile the [Maven](http://maven.apache.org/) webapp module.
-***
 
 ## Technical Specifications
 
 ### Push Protocol
+**WIP** will write this 7 Jan 2014...
 
