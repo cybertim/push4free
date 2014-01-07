@@ -40,7 +40,7 @@ Push Service For Free is a very clean and simple push service as a server and cl
 - `pwd` is your password set in the properties file, `title` and `body` is the text shown in the notification
 - optionally you can also set the `id` manually, the webapp will increment this id automatically when omitted
 - this url can easily be called from your shell scripts with `curl` 
-- 
+
 #### Follow
 - Connect your server with another server you need to know the `/read` url of the server you want to follow
 - For example `http://other_tomcat_host/push4free/read` don't forget to `URLEncode` this before sending it to the `/follow`
